@@ -1,14 +1,26 @@
 .cover__subtitle {
-    width: 280px;
-    margin: 32px;
     font-size: 18px;
     line-height: 1.22;
+    margin: 0 auto;
+}
+
+.cover__subtitle:last-of-type {
+    margin: 0 auto 32px;
+}
+
+.cover__subtitle:first-of-type {
+    margin: 32px auto 0;
 }
 
 @media screen and (max-width: 600px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        margin: 16px;
+    }
+    .cover__subtitle:last-of-type {
+        margin: 0 auto 16px;
+    }
+    .cover__subtitle:first-of-type {
+        margin: 16px auto 0;
     }
 }

@@ -1,4 +1,4 @@
-.button {
+.cover__button {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
@@ -7,13 +7,12 @@
     border-radius: 4px;
     border: none;
     width: fit-content;
-    grid-area: button;
     text-decoration: none;
     margin: 0;
     color: white;
+    height: min-content;
 }
 
-.button:hover {
+.cover__button:hover {
     background: #0063D2;
 }
-

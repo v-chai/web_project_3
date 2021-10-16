@@ -1,0 +1,26 @@
+.place__button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    padding: 13px 20px;
+    background: #0278FE;
+    border-radius: 4px;
+    border: none;
+    width: fit-content;
+    grid-area: button;
+    text-decoration: none;
+    margin: 0;
+    color: white;
+    height: min-content;
+}
+
+.place__button:hover {
+    background: #0063D2;
+}
+
+@media screen and (max-width:600px) {
+    .place__button {
+        width: 90%;
+        text-align: center;
+    }
+}
