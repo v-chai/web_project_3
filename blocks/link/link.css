@@ -8,3 +8,9 @@
     color: white;
 }
 
+/* Not proper BEM, but without this declaration, I was getting a blue or purple line under the links. 
+Text decoration none in my other declarations was overriden by -webkit */
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
