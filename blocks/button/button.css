@@ -10,8 +10,13 @@
     grid-area: button;
     text-decoration: none;
     margin: 0;
+    color: white;
 }
 
 .button:hover {
     background: #0063D2;
+}
+
+.button:visited {
+    text-decoration: none;
 }
