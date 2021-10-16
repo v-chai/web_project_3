@@ -1,0 +1,33 @@
+.place {
+    display: grid;
+    grid-template-areas: "title artist" "image text" "button text";
+    grid-gap: 48px 40px;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: min-content min-content 1fr;
+    margin: 0 auto 80px;
+}
+
+.place:last-of-type {
+    margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1032px) {
+    .place {
+        grid-gap: 48px 28px;
+        grid-template-columns: 340px 1fr;
+        margin: 0 auto 72px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        grid-template-areas: "title" "artist" "image" "text" "button";
+        grid-template-columns: 100%;
+        margin: 0 auto 48px;
+        row-gap: 30px;
+        overflow: visible;
+    }
+    .place:last-of-type {
+        margin: 0 auto 64px;
+    }
+}

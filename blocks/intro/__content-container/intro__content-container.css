@@ -1,0 +1,21 @@
+.intro__content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 690px;
+    align-items: flex-start;
+}
+
+/* @media screen and (max-width:1032px) {
+    .intro__content-container {
+        margin: 0 24px;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .intro__content-container {
+        margin: 0 16px;
+        max-width: 90%;
+    }
+} */

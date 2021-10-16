@@ -1,0 +1,7 @@
+.place__artist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-area: artist;
+    justify-content: flex-end;
+}

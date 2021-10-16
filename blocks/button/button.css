@@ -1,0 +1,17 @@
+.button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    padding: 13px 20px;
+    background: #0278FE;
+    border-radius: 4px;
+    border: none;
+    width: fit-content;
+    grid-area: button;
+    text-decoration: none;
+    margin: 0;
+}
+
+.button:hover {
+    background: #0063D2;
+}

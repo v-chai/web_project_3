@@ -1,0 +1,16 @@
+.place__artist-title {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin: 0 0 8px;
+}
+
+@media screen and (max-width: 320px) {
+    .place__artist-title {
+        line-height: 12px;
+        letter-spacing: 0.2em;
+        margin: 0 0 12px;
+    }
+}

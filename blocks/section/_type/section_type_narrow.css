@@ -1,0 +1,17 @@
+@media screen and (min-width: 1032px) {
+    .section_type_narrow {
+        max-width: 984px;
+    }
+}
+
+@media screen and (max-width: 1032px) {
+    .section_type_narrow {
+        max-width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section_type_narrow {
+        max-width: 90%;
+    }
+}
