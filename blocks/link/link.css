@@ -11,13 +11,3 @@
     border: none;
     text-decoration-line: none;
 }
-
-/* Not proper BEM, but without this declaration, I was getting a blue or purple line under the links. 
-'Text decoration: none' in my other declarations was overriden by -webkit */
-
-a:-webkit-any-link, a:-webkit-link, a, a:visited, a:hover {
-    text-decoration: none;
-    color: white;
-    border: none;
-    text-decoration-line: none;
-}

@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     width: 100%;
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     position: relative;
     z-index: 0;
 }
@@ -30,7 +30,7 @@
 
 @media screen and (max-width:600px) {
     .cover {
-        height: 254px;
+        min-height: 254px;
         background-size: cover;
         padding: 45px auto;
     }
