@@ -4,3 +4,9 @@
     align-items: flex-start;
     grid-area: text;
 }
+
+@media screen and (max-width: 600px) {
+    .place__text {
+        margin: 0 16px;
+    }
+}

@@ -5,7 +5,6 @@
 
 @media screen and (max-width: 600px) {
     .place__image {
-        min-width: 111.5%;
-        margin-left: -6%;
+        min-width: 100%;
     }
 }

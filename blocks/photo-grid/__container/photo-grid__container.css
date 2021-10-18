@@ -2,14 +2,14 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
-    margin: 118px 48px 92px;
+    margin: 0 48px 92px;
     max-width: 1184px;
 }
 
 @media screen and (max-width: 1032px) and (min-width: 600px) {
     .photo-grid__container {
         grid-template-columns: 1fr 1fr;
-        margin: 88px 24px 100px;
+        margin: 0 24px 88px;
         width: 93.75%;
     }
 }
@@ -18,7 +18,7 @@
     .photo-grid__container {
         grid-template-columns: 1fr;
         grid-gap: 12px;
-        margin: 90px 16px 64px;
+        margin: 0 16px 64px;
         width: 90%;
     }
 }

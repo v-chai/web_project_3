@@ -20,7 +20,8 @@
 
 @media screen and (max-width:600px) {
     .place__button {
-        width: 90%;
+        width: 87%;
         text-align: center;
+        margin: 0 16px;
     }
 }

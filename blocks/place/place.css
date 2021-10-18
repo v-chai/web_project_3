@@ -15,7 +15,10 @@
     .place {
         grid-gap: 48px 28px;
         grid-template-columns: 340px 1fr;
-        margin: 0 auto 72px;
+        margin: 0 24px 72px;
+    }
+    .place:last-of-type {
+        margin: 0 24px;
     }
 }
 
