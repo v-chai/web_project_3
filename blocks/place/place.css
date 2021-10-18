@@ -28,7 +28,6 @@
         grid-template-columns: 100%;
         margin: 0 auto 48px;
         row-gap: 30px;
-        overflow: visible;
     }
     .place:last-of-type {
         margin: 0 auto;
